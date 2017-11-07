@@ -37,7 +37,7 @@ class TodosListCtrl {
     });
   }
   removeTask(task){
-    Tasks.remove(task._id),
+    Tasks.remove(task._id);
   }
 }
 
